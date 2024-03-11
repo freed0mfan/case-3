@@ -1,4 +1,4 @@
-import ru_local as ru
+import ru_local_final as ru
 
 category = int(input(f'{ru.CATEGORY}'))
 tax_rates = [10, 15, 25, 28, 33, 35, 39.6]
