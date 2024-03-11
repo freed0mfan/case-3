@@ -32,7 +32,7 @@ def total_tax(bottom_limits):
                 amount += income * tax_rates[n] * 0.01
                 break
             else:
-                amount += incomes[i] * tax_rates[-1] * 0.01
+                amount += income * tax_rates[-1] * 0.01
     return amount
 
 
