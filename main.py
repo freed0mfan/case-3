@@ -8,7 +8,7 @@ def main():
     # Description: This program calculates the amount of tax to be paid
     # depending on a taxpayer's monthly incomes. It's based on a progressive
     # taxation scale being used in the US. It also considers all the benefits the subject got.
-    #
+
     import ru_local as ru
 
     category = int(input(f'{ru.CATEGORY}'))
